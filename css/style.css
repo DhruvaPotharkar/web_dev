@@ -1,0 +1,222 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+    font-size: 3.5rem;
+    color: rgb(0, 194, 152);
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-size: 2.8rem;
+    color: rgb(0, 194, 152);
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(0, 194, 152);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+hr{
+    border-style: dotted;
+    width: 10%;
+    border-width: 8px 0 0 0 ;
+    border-color: grey;
+}
+
+
+.top_container{
+    background-color: #fcd1d1;
+    padding: 10px;
+    padding-top: 15%;
+    text-align: center;
+}
+
+
+.middle_container{
+    background-color: #f2f2f2;
+   
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.gaming{
+    width: 60%;
+    text-align: left;
+    margin: 100px auto;
+    padding: 15px;
+    overflow: hidden;
+    background-color: rgba(228, 204, 203, 0.74);
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+.gaming img{
+    width: 280px;
+    float: left;
+    /* padding-bottom: 30px; */
+}
+
+.football{
+    width: 60%;
+    text-align: left;
+    margin: 100px auto;
+    padding-bottom: 10px;
+    padding: 15px;
+    overflow: hidden;
+    background-color: rgba(228, 204, 203, 0.74);
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+.football img{
+    width: 280px;
+    float: right;
+    padding-bottom: 30px;
+}
+
+.lorem{
+   
+    margin: 10px ;
+   padding: 5px 30px;
+    border-style: none;
+    background-image: -webkit-linear-gradient(top, #41a9c9, #13a581);
+    border-radius: 11px;
+    font-size: 35px;
+}
+
+.lorem:hover{
+  
+    margin: 10px ;
+   padding: 5px 30px;
+    border-style: none;
+    background-image: -webkit-linear-gradient(top , #41a9c9, #2bc09b);
+    border-radius: 11px;
+    font-size: 35px;
+}
+
+.lorem {
+    color: white;
+}
+
+p{
+    line-height: 1.6;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.8rem;
+}
+
+.dp{
+    text-decoration: underline;
+    font-family: 'Sacramento', cursive;
+    font-size: 130%;
+}
+
+
+.cloud_1{
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+
+.cloud_2{
+    position: absolute;
+    bottom: 230px;
+    left: 150px;
+}
+
+.dg{
+    border-radius: 200%;
+    border: 6px solid cyan;
+    width: 50%;
+}
+
+
+.dhruva{
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    width: 90px;
+    
+}
+
+.button{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 70px;
+    border-radius: 200%;
+    border: solid 4px #aee1e1;
+}
+
+.wa{
+    position: fixed;
+    right: 10px;
+    bottom: 120px;
+    width:70px;
+    border-radius: 200%;
+    border: solid 4px #aee1e1;
+}
+
+/* .bottom_container{ */
+    /* background-color: black;
+    height: 100px;
+    padding-left: 20%;
+    
+    margin: 0px;
+    padding-top: 17px ;
+}
+
+.bottom_container a{
+    text-align: center;
+    color: #13a581;
+    font-size: 1.6rem;
+    text-decoration: none;
+    padding-left: 5% ;
+}
+
+.bottom_container p{
+    line-height: 2;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+    color: #13a581;
+    text-align: center;
+} */
+
+.a{
+    line-height: 0px;
+    background-color: black;
+}
+
+.footer{
+    height: 130px;
+    background-color: #000000;
+    color:white;
+    text-align: center;
+}
+
+.footer img{
+    width: 50px;
+    margin: 10px 50px;
+    padding: 5px  ;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover{
+    color: rgb(61, 61, 199);
+    text-decoration: underline;
+}
